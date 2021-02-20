@@ -1,0 +1,12 @@
+__pycache__
+
+client/node_modules
+
+# Ignore main.{js,css} in the server static directory.
+# In development, both files are written to that directory
+# by Rollup, by running `yarn run dev`.
+# In production, both files are written to that directory
+# by Rollup, by running `yarn run build`.
+#
+server/static/main.js
+server/static/main.css

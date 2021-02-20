@@ -1,0 +1,11 @@
+{
+  "name": "spa-with-heroku",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "heroku-postbuild": "cd client && yarn install && yarn run build"
+  },
+  "cacheDirectories": [
+    "client/node_modules"
+  ]
+}
