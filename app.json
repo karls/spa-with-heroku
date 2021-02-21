@@ -6,15 +6,15 @@
   "repository": "https://github.com/karls/spa-with-heroku",
   "env": {
     "NODE_ENV": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
+      "description": "Node.js environment",
       "value": "production"
     },
     "YARN_PRODUCTION": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
+      "description": "Should Yarn prune devDependencies?",
       "value": "false"
     },
     "FLASK_ENV": {
-      "description": "The number of processes to run.",
+      "description": "Flask environment",
       "value": "production"
     }
   },
