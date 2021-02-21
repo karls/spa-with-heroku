@@ -2,10 +2,10 @@
   "name": "spa-with-heroku",
   "version": "1.0.0",
   "license": "MIT",
-    "engines": {
-        "node": "14.15.x",
-        "yarn": "1.22.x"
-    },
+  "engines": {
+    "node": "14.15.x",
+    "yarn": "1.22.x"
+  },
   "scripts": {
     "heroku-postbuild": "cd client && yarn install && yarn run build"
   },

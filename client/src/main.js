@@ -4,4 +4,6 @@ import maincss from "./main.css";
 // Check client/rollup.config.js
 //
 console.log("Running in __ENV__.");
-console.log("Nothing changes between development and production, except running build with NODE_ENV=production.");
+console.log(
+  "Nothing changes between development and production, except running build with NODE_ENV=production."
+);

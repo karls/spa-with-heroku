@@ -1,0 +1,39 @@
+{
+  "name": "SPA with Heroku",
+  "description": "A reference app for how to build and deploy a frontend alongside a backend app in Heroku",
+  "keywords": ["deployment", "frontend", "backend", "spa"],
+  "website": "https://www.karlsutt.com/articles/how-to-build-and-serve-spa-with-heroku-app/",
+  "repository": "https://github.com/karls/spa-with-heroku",
+  "success_url": "/welcome",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
+  },
+  "env": {
+    "NODE_ENV": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "value": "production"
+    },
+    "YARN_PRODUCTION": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "value": "false"
+    },
+    "FLASK_ENV": {
+      "description": "The number of processes to run.",
+      "value": "production"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
