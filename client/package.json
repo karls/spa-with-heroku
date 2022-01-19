@@ -7,9 +7,9 @@
     "build": "rollup -c"
   },
   "devDependencies": {
-    "@rollup/plugin-replace": "^2.3.4",
-    "postcss": "^8.2.6",
-    "rollup": "^2.39.0",
-    "rollup-plugin-postcss": "^4.0.0"
+    "@rollup/plugin-replace": "^2.3",
+    "postcss": "^8.4",
+    "rollup": "^2",
+    "rollup-plugin-postcss": "^4"
   }
 }

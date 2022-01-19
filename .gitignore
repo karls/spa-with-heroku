@@ -11,3 +11,5 @@ client/node_modules
 #
 server/static/main.js
 server/static/main.css
+
+yarn-error.log
